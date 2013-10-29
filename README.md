@@ -3,6 +3,14 @@ Random members of the public are encouraged to participate in this process in or
 
 ## Generating Gitian Sigs
 
+ Checkout bitcoinomg, gitian-builder and gitian.sigs.omg
+
+	mkdir workdir
+	cd workdir
+	git clone https://github.com/devrandom/gitian-builder.git
+	git clone https://github.com/litecoin-project/bitcoinomg.git
+	git clone https://github.com/litecoin-project/gitian.sigs.omg.git
+
  From a directory containing the bitcoinomg source, gitian-builder and gitian.sigs.omg
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
