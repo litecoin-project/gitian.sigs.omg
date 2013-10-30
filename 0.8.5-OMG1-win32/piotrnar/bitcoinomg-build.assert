@@ -1,18 +1,19 @@
 --- !omap 
 - out_manifest: |
     4903da37921dc14f5c8a22cc041dd98600f28dce51078cb704110835c7f72e1f  COPYING.txt
-    dbfbb6eeb74bf1aa59679f122439d33d8b9d98fa0d9bb97a103140b682e514fc  bitcoin-0.8.5-win32-setup.exe
-    d1212680e0cd4382d514d407d3494284b8ebd7e8028a8f22179c108767420264  bitcoin-qt.exe
-    05af7e22721d0d1ca01c4375291f94f0248d06fdada0a9503a4597af0ca262e7  daemon/bitcoind.exe
+    0a95da7567d8a9dabeadffe5b74e4813072e4a2c6fc02c130bb383e949c78d22  bitcoin-0.8.5-win32-setup.exe
+    7b06dc9534b1e12849780be0481c629a8cc9d925ca8849dadc4d593a5d9e4f6f  bitcoin-qt.exe
+    dfeac5941ea70141d447c1d79c84d8c74c84126c6df49f2b08c6bff34c07a7b6  daemon/bitcoind.exe
     707850171ac78d58b635d519d6653ab9f1d4e62725d861bca33ff8203b6af7d7  readme.txt
     11f006809d8da1021bb9cdcc8f4e824e16d37ed79801100044ceba2caaf0eedf  src/.gitattributes
     6e15be657e0ec29ba916596096dc9a005559e3f6df556bcbdb0ffd3d7c6e93c7  src/.gitignore
     4903da37921dc14f5c8a22cc041dd98600f28dce51078cb704110835c7f72e1f  src/COPYING
     ed48a7d4bc68cbff5d2b1a8d755dc24c2673f79b08b8c39cf87392513b3b7e0c  src/INSTALL
     2b7d050955c7a8b39324ee8b1dd3edc9be466a25e5cef7550d705aa4aee18552  src/README.md
-    8d5db8ed4507c6609025a121b1965811bd44c426964c012e9626c8e7b3fffc77  src/bitcoin-qt.pro
+    64957d4fcb92ffe3935e39b56947896eb1a43f374c88b275f0a7109438b6f308  src/bitcoin-qt.pro
     e5d380b9a9800682de7861b1f6bf717455402a19cc5d82f68dd0ebe9b4820453  src/contrib/bitcoind.bash-completion
     97e5d499422ce8cba9ae2149f65e4bf4ec2101267ba70e21b2ab63d2b6b15503  src/contrib/bitrpc/bitrpc.py
+    fcb314ec07189c713d7c19cf077864ce7b4e8f840e3caa25137b2e57deea2cee  src/contrib/debian/README
     bd0f2d3fe13e8c405ee58f988c8ab0dd1f2e7e8245d4736b59a49356b9f4ed2a  src/contrib/debian/bitcoin-qt.desktop
     601890ed01933bdde4e1734f339dceccf5a8de8894b718515b8bd43843cf722e  src/contrib/debian/bitcoin-qt.install
     4a9811dbd9a059ebc72acff5869cb2b564e5d361b09452b2f5cda4c987979a73  src/contrib/debian/bitcoin-qt.lintian-overrides
@@ -39,8 +40,8 @@
     7daec4c5bc07834aaa784506102cfad828fae4340c7ac206596bbcc9eae3a953  src/contrib/gitian-descriptors/README
     b68d0996ae0a6b631f967b8cfc7db1dbefe5b0a15ca5ec43bbc1fb6614a77619  src/contrib/gitian-descriptors/boost-win32.yml
     e20db1935e64c44526f50a00a30854a303914abe2f8647f8c8841ae2639a000d  src/contrib/gitian-descriptors/deps-win32.yml
-    dcf18330b4ab6761ed67008446e1164336da6a685c7bd12e3fe87f344e3e7b0f  src/contrib/gitian-descriptors/gitian-win32.yml
-    fa5e5375432617df15c9cf6c7006eb4b07bf8109b5409554353a28ad5ce303c0  src/contrib/gitian-descriptors/gitian.yml
+    00816329f913c3b775714542338b97494375ba10971bcca61432d60305f5366b  src/contrib/gitian-descriptors/gitian-win32.yml
+    fb18f95d6c1567fe81877f8187e12b85ac06b47b645e828715c6b978a0dc418d  src/contrib/gitian-descriptors/gitian.yml
     3fa15851c74ee953173583509f2bf56318dd85d6f2ad3709441d9de78b4ae748  src/contrib/gitian-descriptors/qt-win32.yml
     a98443917f7d658838f9600d217e77d88854a155381443e3cb72f989f96fd50a  src/contrib/gitian-downloader/bluematt-key.pgp
     794e6b96319a10c0920e0479602819db7f768bb22f62ddb0811797578aaf7a92  src/contrib/gitian-downloader/devrandom-key.pgp
@@ -52,7 +53,7 @@
     959676a910bf69effe4fa9ee9d2eaee3e07cd1640682e54b85b5ed9a526de316  src/contrib/gitian-downloader/tcatm-key.pgp
     1b2d1236201386c26b09319d974ffbb5d5bd3bb301065896e32b8157b20463d8  src/contrib/gitian-downloader/win32-download-config
     93b6dedefe70c40587a51602464249991e07cf68ae9cdb21e5799b8679bd05c8  src/contrib/homebrew/bitcoin.qt.pro.patch
-    b6963752e03c07997f2466b0392b01ab0c6a2e57f04f8e4c6a05a44b56758403  src/contrib/homebrew/makefile.osx.patch
+    5d49268b2af280ecf51cb3c2ca4f82798997d3bcb875d40d7f72032c7d99a47a  src/contrib/homebrew/makefile.osx.patch
     8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903  src/contrib/macdeploy/LICENSE
     d70757107df9b394caa1a1e03c7bb23a084cb2217e3cdd4a8e205900b03726e1  src/contrib/macdeploy/background.png
     5a5b77fde2ce42b4f0e48af335c48f2b24d5fea88b32b11a7e79f6f92f1ce7c0  src/contrib/macdeploy/background.psd
@@ -93,7 +94,7 @@
     fc6954f9507341e5a8da4bb7f0b92813691d8b1f80421db4e13f1638e036c9b0  src/doc/coding.md
     8bb8d5865a8bd5a2f0d02f4b11f8b05118e1ef330134d2de580d60bbee858b1e  src/doc/files.txt
     fcbf997b24c5ac207f9022362d8f08f12b6e864ae6836b63950f405f6c664916  src/doc/multiwallet-qt.md
-    c6b4683dec3012af55c728a07995ff631dffb7884b44f7477fd91f37e36cf363  src/doc/readme-qt.rst
+    7b9228f13ff842cfc1aade11350b605467e1bfe9789d30547f1e96e8cfc373f0  src/doc/readme-qt.rst
     49b1ea8287cb8ea162b291fe7f4b63c65b192a586fa331f9c846dc346353952c  src/doc/release-notes.md
     401321b63e4734f576e4701630a95aa1457c65638f44c021336c8c5962dfd516  src/doc/release-process.md
     7157a199c4f0a7fd9fe4b21ffee6496da807058515c6e48624cabef5a351568a  src/doc/translation_process.md
@@ -127,7 +128,7 @@
     08c7efff95fc90a198dd190e50761281cbfab42e17f064b7146d952d94601749  src/share/pixmaps/send16masknoshadow.bmp
     b4959ca84a316e494e2d5b61f406e54344249ace24b854e90f34d5deaccf61c3  src/share/pixmaps/send20.bmp
     efb5d66bb902a281406d3b5cc4092008dbdcb5c77b298c06b3ef79e8bfa16160  src/share/pixmaps/send20mask.bmp
-    3cedf80bb07fb0f9cce07de301abc4839f10aa1fb659945e1519166c79dfd722  src/share/qt/Info.plist
+    a6100d9ff30d6e00568fffe1e692fd38002649d75cc1ccc9ba7c9b7108a1a540  src/share/qt/Info.plist
     5b9a4417d2ac6e26a44507ad6e7c6a0764cb4ed063339f20442403aacb3cd7de  src/share/qt/clean_mac_info_plist.py
     790404aae43cf5e0238bc933c69b32d5c92a5e302e8bc699634b36afe86be530  src/share/qt/extract_strings_qt.py
     eb25c24d53894bed646311df57fe37e81e7700c803311beb596b805ba773d28c  src/share/qt/img/reload.xcf
@@ -137,27 +138,28 @@
     77823caf9c5b3f320e91a465b4dc0d204f783040688da0c8609afed83a386b81  src/share/ui.rc
     f7859f8274f6bb806f8ecce72da586328b7f9a9ed89569cd76c58e2ad6555cb0  src/src/addrman.cpp
     7d551040a47782e98842ea52cf05d5cb1b7d43c55eab46b473ba1a0f2da981ad  src/src/addrman.h
-    e53f0f28170d71a41f3e688d355a764793f23c50463b573638c617f275638504  src/src/alert.cpp
+    c92f11f5cec20239e7da2d62d5e4ba3e96c2602a5d57bf4188dc8219ae2158c6  src/src/alert.cpp
     1b9410406dd432e6fae564b817c2387e319d8df4375c43f40ab2a3a30f3292bf  src/src/alert.h
-    fed03e071c11311bcac7a8db9cbd485d99e0d56c83c2f18d12946a0e73b3554e  src/src/allocators.h
-    b829aea2a6e5b2be3a9836e361979bfcc372cd75d9b4973f95b46ccbe720a9ca  src/src/base58.h
+    b689f6b8ee79d9e074f5b90ee52cc2674d19482469d11d65c6c02f509f6d4c90  src/src/allocators.h
+    df838bc94a053ed3e5ca6c1d94754ae533f07de47a71cb585e443714cde92e8f  src/src/base58.h
     6259786263d5eef59538c1ead6f7486225332031dd4aa0011fa2064a4817454a  src/src/bignum.h
-    ac915b05b8de5377ca3da37e943be153561c78c9dd77c0a47064a691b38a9db4  src/src/bitcoinrpc.cpp
-    613ed0ab4e0fd05bd85fe2e0de288252c2ca624f9abf8942aeea42e76fee6901  src/src/bitcoinrpc.h
+    45fbd84dbd3dbbe5837a916d4d1329edb3054863ef27648631df0d459219b6d2  src/src/bitcoinrpc.cpp
+    b9fecfd73b5ff20657e26cc4c9b6eb4087ae1a0f9e7674695d77e4e4ce717d21  src/src/bitcoinrpc.h
     4bd48f6fc68e15e642ea0b924d9c16b0713100b1e4f785fff7ef7a4113fe6a76  src/src/bloom.cpp
     0e6c2a6ed1149f50431935600d4f16fa661212ca2bf099668974a4aa08316cc5  src/src/bloom.h
-    59de3b01aab344c5e9a73c8914fe272b1c985132773f5e0a0e1b96c31c36ded8  src/src/checkpoints.cpp
-    a54a8abfd2efd5ab4cac2e02cb1fd43be076ac9e15a8260083f53befadb6fd21  src/src/checkpoints.h
+    09a7324a143213e06997e834fdc1d8fc965032653faeac49a4fc2f014e8521ea  src/src/checkpoints.cpp
+    e424a1daf04c917aff146c19d5bbd6229cd2fa6d92c303838ff9e20bd644de2c  src/src/checkpoints.h
     1a0caede06760890a11e7263c1cdc2c7a4be4d035053b9a871ed3b880a142ae7  src/src/checkqueue.h
     148cfd4e410ecce0de6848672df905aa7821c2878591b5ed1cd8bc530a167cfb  src/src/clientversion.h
+    d5d362a8c4c078311ea7cd8ceacb7ed7d41c3227ad0a58f2c3b8d1b7bad37aed  src/src/coincontrol.h
     1c4e9adf19f20bde312d2afdc4a350b1df11a4b27fd5738c16cdaa22f35eee30  src/src/compat.h
-    60c67b53319627aa0e6a491259c4198e6eb8be196b17780640e7815f1838978e  src/src/crypter.cpp
-    c4e45dd4a31419039bad409b09f550791bbebd3df266db047d0de2c2b83fe928  src/src/crypter.h
-    7532adbfaf0f5117f3c5785127893955b041f9513208ef6e83bbf7f7469819fb  src/src/db.cpp
+    eb464ce956920d415e1a775587cd76a56b0fb703a0c79693f5e701ad9a2ea639  src/src/crypter.cpp
+    0d6bef3d2fa90a1685cc5c30fb225abaf8020a39d45c86d10310508a372179f9  src/src/crypter.h
+    db70a97eae2fe2e52850448fad611ff6ea3b21cd7c9f13351d04ddeab0dcd52c  src/src/db.cpp
     1bb6b1f38bb1481f29dd08a320f5b404d24e923b6ce9fee1577613365d2e44c9  src/src/db.h
     9b7ceaac1e2e0efa544888a145d09ed59054d615bd581f83624f409962c18f8a  src/src/hash.cpp
-    dd044b02f631fa16658497f0201819c0aa56aa7c6b5f7532563bc7a5f1193149  src/src/hash.h
-    9d2568a03aaffb7eb14bed2c9de38a6fed8e841ac42a410091f7181f5e0c781c  src/src/init.cpp
+    06cadd21562f804b71b610d4608fe6010dfc5ee93b88cac4885d54eaea863f30  src/src/hash.h
+    c83d5804e0f08b08728e0aaaef63614424ba3133799fe5d551179611249a773e  src/src/init.cpp
     e09192aad2b5ae617110477c54812a6cf6719799da364feda06901c4a11f4f01  src/src/init.h
     6a1931bd6e6a765e2026127eb03f2ff24b915028991a2282ff20f0b8cb1d1424  src/src/json/LICENSE.txt
     79dd55f9a783c2425e7f2ce85b73ed5356c0633720d8c56eae1a157f41d6fadf  src/src/json/json_spirit.h
@@ -171,35 +173,36 @@
     873ea8864ada172514c38c6d98602cd3694d04cfe159f5250b7eb9440262049e  src/src/json/json_spirit_value.h
     16b0123375012f07621e163002fccd6b5ed78e1029604af8bd49a4aadba2f131  src/src/json/json_spirit_writer.cpp
     28d5f9a32fe2492bddab66e411659f48fc385c7162fbff4fd3a92b9d18181d2d  src/src/json/json_spirit_writer.h
-    5becffa109d7021c78c0a760dfb28c97c3a1a13ccb9b844c4caac45d390aaf3e  src/src/json/json_spirit_writer_template.h
-    927eb7c916b8f406d53aeb1a0ab07358267633fb4af32fbaa6bee3f85eaffb93  src/src/key.cpp
-    92758210072b9980421c4e3d8613ef26b3f306d6bf44e8bc685c28e03d9916e7  src/src/key.h
-    8a623a28fb1965d0410359c54d6aaacd069fbe76afb1bca10ce529fbf6f4b84e  src/src/keystore.cpp
-    57543d1ba37fbf2baa4187d213135e3b368ad24ec5760f790ba0a16a2481bb8e  src/src/keystore.h
+    2f769e18077751901c33772c99ed8d9b9a55ce242a1f3bd50167ab630e89443f  src/src/json/json_spirit_writer_template.h
+    f170d79e646defd4510a5705f9a76d89155e2f211ba1868bc0a8fc3360c662f7  src/src/key.cpp
+    ec222ce2033982f37a92393e50b673332314d9c9dc5b791878c2b6753c523200  src/src/key.h
+    c497c9c6723e86327a413b28e9be71759df73f7bb68a0d08f97cd2fa85d5cd56  src/src/keystore.cpp
+    83699479cafd6d75c88b45ce5b687bc28f375de5c25b5be25b565948faa1697b  src/src/keystore.h
     2ca463bb42d251e0c71e237dc4c6bb7a4bff0cda8f3fb7c5257af073a1d5e4aa  src/src/leveldb.cpp
     df8263abb236f7e9ec86e845a290a28939bf233207336b7efbf6f424e6bdbacb  src/src/leveldb.h
     fad22cc65b813e3fdef0bd706e9e553dd51741ffaddaeb199eaa0841a643666b  src/src/leveldb/.gitignore
     9b45c2cb50c3a0031587cb47672933c39a55f59f58b408cd13f891e6fc5ced39  src/src/leveldb/AUTHORS
     ccc19f1da0798ed666609b65a5b44dd8b3abe6fc08b9c0592eb76e82e174db19  src/src/leveldb/LICENSE
-    f32aa16e4802224cd85116d2ab87a3f837e8efd8cdc156b0ceccf1c9da86af62  src/src/leveldb/Makefile
+    7feded9c337ab6997056a8462828f114368b54d638d9f22211b0f26c69e85e45  src/src/leveldb/Makefile
     cb679e01637f28359f7e269b4b9243a7cbae2e3b54c4b1dd2dc7a3dcc710d017  src/src/leveldb/NEWS
     bcdef4580f9303105cb1c3a7e4ad504dc42b7b965435d9f3960956e58ec5afda  src/src/leveldb/README
     17ae5cf8cd3ff8af7ebde2ff0b6dc8261ae0aa07c41f8eb39d8cf31fc31590f5  src/src/leveldb/TODO
     a556c30245c055534dfc045e7dedb57dbcc48adf3afe1d9aaaee2852f1662d44  src/src/leveldb/WINDOWS.md
     7e25a283e8976c9a9d0dc26daf4e2533f209d0f58ce91f55ce8771c55a7eae98  src/src/leveldb/build_detect_platform
+    c596d7ec81ef0a19dca5e94ee58cc1610d0044e778e40aec67e708cb7bebcab2  src/src/leveldb/db/autocompact_test.cc
     d4662a07824c6dd4185255a1939f3a93020574964a71fb1f1c6fdaf6c6085aa0  src/src/leveldb/db/builder.cc
     047a1b100a83850d314fa110a65f198f1b8593e52572374dd0b8d9ec37fd6805  src/src/leveldb/db/builder.h
     c511c0a4eebd633850a529c1a2c4016c17da5df731fe5ac7c61a60b2dfa98214  src/src/leveldb/db/c.cc
     208a0131b84a5b5c6797ae7e697f03ba3833bfd7cfd2f3349f6ee5c82f0b5475  src/src/leveldb/db/c_test.c
-    6151ec4f133d17f4be6aea4ae88005c7d8ab4fe77c4428090b514f918b6fee4e  src/src/leveldb/db/corruption_test.cc
+    f26315a7e0f36f5249c1cbe849b99d23a26652d9b35d58f63c4f3be977fef820  src/src/leveldb/db/corruption_test.cc
     56d631d0aff83e7e22201ff38bd6f5579cd66ca97e0e8fff3bd116dce019dd18  src/src/leveldb/db/db_bench.cc
-    b7707b4b2b20d6c068bdae60eee2c775d755d0a4fba0b9dbda0793b096c3d8e2  src/src/leveldb/db/db_impl.cc
-    24ff46152b69852502a82f8565559909eae0fff5598d3ba65cf40bde17761de0  src/src/leveldb/db/db_impl.h
-    53b204686f994692505aea9958094fc4399ce27d1076623881dcd05502c14baf  src/src/leveldb/db/db_iter.cc
-    7cd7a904c5d2242bb732036a458d11d4b43cdbe0a9ea70d596e2dbc4a65c1a9d  src/src/leveldb/db/db_iter.h
+    9dec107561ac3b8a4641630fd5d9f03dd88ad79b7b9309b77ab13f8301259d4c  src/src/leveldb/db/db_impl.cc
+    edd392a50f7e41e6bd57423f5d530a1ada288183c630ab7ae5f23d619cc16244  src/src/leveldb/db/db_impl.h
+    f2a7a2f445747a76422aca29f91a7c7d765a7bea09b1eb705417c0f7006570db  src/src/leveldb/db/db_iter.cc
+    4847aba9e868ad7fb1df4d2f269fd1a244ccfb6fe17667963dd149c381df6f41  src/src/leveldb/db/db_iter.h
     d4c2e76d974113bbb964b945fcd7f466f52459c63ebec4cf0f5b242692c4918d  src/src/leveldb/db/db_test.cc
     dd5528a688069e330b5dafe9546dc8c2b0d97afc72c35685fe2d63d65b6d51ee  src/src/leveldb/db/dbformat.cc
-    041ae177223eadfc2f35a12e73b65ecf6d047b4df15a1237719a56fa175ab330  src/src/leveldb/db/dbformat.h
+    812dc378ae4b7466fcde7909466199387c484a6dbd47b39a4e8ba0fd4b780428  src/src/leveldb/db/dbformat.h
     19666fcd61713adb8da156620e3ff5819409eee5adcbdfc0fba76e7320796352  src/src/leveldb/db/dbformat_test.cc
     02b1aa84cc092b610f0fe4e9f86f9b579e29d082890fc9328e5ba37f66ffd423  src/src/leveldb/db/filename.cc
     4ee6d94cec09cdb8a38876b8db4a27b91bbbbaf162c6730895caca1ddcf89bb0  src/src/leveldb/db/filename.h
@@ -222,8 +225,8 @@
     5d98c0d90d551385fb8afdc294bd030a2e80f528c88bb719ba9628af6054829e  src/src/leveldb/db/version_edit.cc
     81c9a7f890631deb28992248371da3f1e4e8618e518f3ec6a0a42a95da752816  src/src/leveldb/db/version_edit.h
     06f529d9e6b1cd71da7e1e096f1c20b752a2d834ae2347c924fa77537128e828  src/src/leveldb/db/version_edit_test.cc
-    080a3451efcc8dea8f0b92b2186f2309fca780a4216f06c35d21c15469b8fc9e  src/src/leveldb/db/version_set.cc
-    5369af5a81fe5c183d4e788936d041e7f785953899f2afb370836008bc62cba5  src/src/leveldb/db/version_set.h
+    00ba99689451650350179f492278ecdcfe6b8c30a18d233c51d51515353afc46  src/src/leveldb/db/version_set.cc
+    33bd661644a59173344c92c3be022d558ca3d5570c9c4ec525feb949a05a3ca8  src/src/leveldb/db/version_set.h
     c22b55f30dab0ac2c510ae5ee65b0922d661262b7653da86eefa9c63b70b9856  src/src/leveldb/db/version_set_test.cc
     31583202d236f4194adb871cd6fc410599ad1b6fc4cf6a713f55570562c86a9f  src/src/leveldb/db/write_batch.cc
     f704b5075fadd4377bf2dc20c106f8059f2259d3dbb97e15cabc5f391cf0301e  src/src/leveldb/db/write_batch_internal.h
@@ -242,7 +245,7 @@
     fc8089b1e7dd4ba296422c3515f4520cd5f68c81a4c1afe90a23d69099d28aad  src/src/leveldb/include/leveldb/c.h
     27d7926f5ee7f09cc9f0a21543110dd8998e9d6252bfe8a233574d8979b117f1  src/src/leveldb/include/leveldb/cache.h
     3c9c9b78f45c3521790bcc0b6e02a25832760da50ae0503e08e0af18253ae214  src/src/leveldb/include/leveldb/comparator.h
-    0c31cbd958444517222310713a4beea4a23ddbb806795fa4865124a87519506b  src/src/leveldb/include/leveldb/db.h
+    1f2a19c414060403d0edb1df79c340d54f286192f1bb0a8dd776e523b723d93f  src/src/leveldb/include/leveldb/db.h
     4066062719de521e93537a15d094600de836b9ae8be7a4f38e7e40829941f455  src/src/leveldb/include/leveldb/env.h
     e366b5cb1ddc82155ec692e60cbc22c84f03e3da1d610cdfbfc01055e018218b  src/src/leveldb/include/leveldb/filter_policy.h
     924fe90313f3abd911ce5fc451f1277ee19e06943469f97468d4b83877356ac1  src/src/leveldb/include/leveldb/iterator.h
@@ -296,7 +299,7 @@
     4a75367fedd11a25d500229c8f50b2d40e4ef3b1350b0b020cfa36c9814b4ace  src/src/leveldb/util/crc32c.h
     4a5f29fca975dda34f760a9ecce6b84d460d473c150d27fd8b741f283d2daef8  src/src/leveldb/util/crc32c_test.cc
     3fc6bb0075076c19179430ce1a28859ad95174e90400709a8fe148564d2ac98b  src/src/leveldb/util/env.cc
-    a81b70a9b9b2aec0e40b07076f8817785b7fe7a9ed74e9e03715027e1d0a6087  src/src/leveldb/util/env_posix.cc
+    77344cdebceb968ac776484b41dfa24e79f0553299eea5c5d89e9ff4938e6ce4  src/src/leveldb/util/env_posix.cc
     06d70afa831277b580c427090950295132a8217ed99dd002babc193982ebf4d4  src/src/leveldb/util/env_test.cc
     a502bd13b46eaa18982175fae5d5f5233832e7439df27e31376f97dfac97e70f  src/src/leveldb/util/env_win.cc
     744628bcf55e7644502b9586473ab0577bf8663fbd3ea99355dbdc7d03f6374e  src/src/leveldb/util/filter_policy.cc
@@ -309,50 +312,54 @@
     06c1fd0480f91ac343a6268dc733b33530ef89899ca12193f5743cef685e23d5  src/src/leveldb/util/mutexlock.h
     5f39960f883f87ce1748d930fbc095684d4f2b6a4b24f1a64374503a2981fc9f  src/src/leveldb/util/options.cc
     c19d0951ee918336c6114486a53cc36b5caaca9ac4ee402abecd9c1049d552c2  src/src/leveldb/util/posix_logger.h
-    a0d85e3168ff7d6ee4f4508a38083c2535938ee9de19b6e9837e23e3464aa7c1  src/src/leveldb/util/random.h
+    e3b2fe459fa02588802cc9eaec52b850ec32c13c0566d03ce82a351715538a18  src/src/leveldb/util/random.h
     5f1bc586c32187352b950c3d6efcf922b85e9c034a774335bc3ebedef02558c2  src/src/leveldb/util/status.cc
     8626019ea6e8f595d8db58a8830d9c9a79ddf83d21a8fc6df93294379d9b4e9e  src/src/leveldb/util/testharness.cc
     72915a6e491679ae2023f2e0dd6311737eae2b74630640dfbc5e2c8572dd2b52  src/src/leveldb/util/testharness.h
     6c4ab7132cb174e1d4099e93e9b656c89ff0716b76af1f66c47f01bad19de87b  src/src/leveldb/util/testutil.cc
     0a73c868bd45d0f671a30a9c5a4770b781b87339336b191bddb91ab12a8696d1  src/src/leveldb/util/testutil.h
     3e7feacf9c803068fa6ad211d4f6279b2ea370f285f06a82f1566544d0bd304d  src/src/limitedmap.h
-    46a8f140cf540fffbd685728d49431a5a79c37157250b87b4b18592540433cba  src/src/main.cpp
-    46b4ad2d6b310f0fb416775de196809f9c7d390769f231e5c968b7006fb76a99  src/src/main.h
+    c73d72f8d85d9cf702707fefc693deaf3eba80e72f8404d61d7890573d4f8550  src/src/main.cpp
+    a5244885de2ac0a9b477127ef7cff8d56acf469aade3c8a450c843e40d2b14b6  src/src/main.h
     5888736a85c09b7544cc133fc65ca5009c7ee337d61a20a55cd593f6888cac6d  src/src/makefile.linux-mingw
-    4453eaf19b7d10e2e3fccc4b2dff15af95bda073e4125137cc444f7840bc2c5c  src/src/makefile.mingw
+    f2e85038221f401e5dcb41050203d5d4259f995d0a0e6c83e8714c43873145e9  src/src/makefile.mingw
     30ed2e70abeabd6add27e076f819defdfd566b959103d8d350001c4230e51dee  src/src/makefile.osx
     0da9dab4983621d23f082fb6d906367cf654223721ec1e3999b458abbeb73ce6  src/src/makefile.unix
     28ffd4bb54fd9d18c0da7a7637abec313860266d4dc53ffb414d66267bc05b6a  src/src/mruset.h
-    c06ccce2710aea2137c229f76db5030011bd1c8feb5dcb4723156c5a9aee4151  src/src/net.cpp
-    1c6403c86b4503370d7909aac9b4937ecf66c488c9ed2c7cc81faa7bc485d078  src/src/net.h
-    8c94b66243c46852c07c7e84fba945d39e0ba47422a333430983b79ec7804b6c  src/src/netbase.cpp
+    e15f26c2a8019145d10294ca64a3213aaf90b28b2b8554bcc6a55eccd140648d  src/src/net.cpp
+    26ef494a9719371c5453d0655eb902621a012166e6066e5456cbf66f2270facc  src/src/net.h
+    1f6785bffd92afe4757b7917d771552b8c1d969e77e51dfe466d06dc3495459a  src/src/netbase.cpp
     2be47438bc97af8e9a948386124115c64d1d7f9364849dde8a640b11585d6d29  src/src/netbase.h
     0911d8b1b1d5d85c045a072e4e0e75feb1317d73ebbc4b0c3115a8d172f4e243  src/src/noui.cpp
     240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d  src/src/obj-test/.gitignore
     240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d  src/src/obj/.gitignore
     903e807c7540657464de4ed2a4f26c09f2cfd45c54be572d11829c3cfd9c1f41  src/src/protocol.cpp
-    d1a0ef9fdb7e1be7cf52894983318dc908312ba2b6a2ff9508898b1d7a717107  src/src/protocol.h
+    fbfff8dbd141aff015cf89afd9afcd23ec9d3253a725973b05055b70cdffa87e  src/src/protocol.h
     36cff7c81eea27d19beb8ebfeea04c614a9b1bd0bb31089f435291097066a8dc  src/src/qt/aboutdialog.cpp
     9eb8b1f32592daed443ef3fced3a810340f0c9b0e42dfec72f8d06387ce1c235  src/src/qt/aboutdialog.h
-    d303764c2cdc8a07f5bbe595a0aab813039081386ba65f28caa374c4db3f884f  src/src/qt/addressbookpage.cpp
+    9b1384f439f990acce1b9d1f511de38074d1237648e028bceef040c64421e59c  src/src/qt/addressbookpage.cpp
     2289a0f038adedd6959da07f087ca5bc1dc2d9e5f906d94f33b494f2a3a6823d  src/src/qt/addressbookpage.h
     4ca8245e1f10df2bdb092c3eeb065df954773a124664b778f1831823516e363a  src/src/qt/addresstablemodel.cpp
     6586f2598cd989c33f51ec9e7db49c1cfb34197ac8864caf0f39169936e93ace  src/src/qt/addresstablemodel.h
     fa37c7e07ef29b5f7b667c78d9257b3ea10354ea3c5372fe718160fbf68297b1  src/src/qt/askpassphrasedialog.cpp
     74c07ed7ed4d8e83c47fa7220229082fea4b294569ba3e52e502cccd6a3abe9e  src/src/qt/askpassphrasedialog.h
-    a54174b009f757598e7cc9adcdb346733d0a0a479f569f9f6f89361ba3148d9f  src/src/qt/bitcoin.cpp
+    b81604553ac7dd79b1fe1bbad307b8afbf0d0cb5740a56a2e6cd8394cca1a3bd  src/src/qt/bitcoin.cpp
     9f04a53ab461e6289ba03982082a6f836c2d35cb85d1a10cec770f75b73941ed  src/src/qt/bitcoin.qrc
     28573eda16d0549d51b64fddaea1151a5522453f8c7ab854b61c3a4ff17b6b1d  src/src/qt/bitcoinaddressvalidator.cpp
     523f0aa84b8bbf420138c9c74703e4c6bc93870862e88e6ad1b831bdd5b828ed  src/src/qt/bitcoinaddressvalidator.h
     c9848e1f256390c78607b8e4e070266393a3c49fad309c6f9043c06fd7bd34d0  src/src/qt/bitcoinamountfield.cpp
     65baedc9982da35319bc384abed7e34bc52e70248ef0e826e9b4db4c533c1fa3  src/src/qt/bitcoinamountfield.h
-    4f6a2cdd48d9b54dd11a98f1c30de9551871f9ac4cd9544ddb3a69a8c6bc9ff0  src/src/qt/bitcoingui.cpp
+    903922e15e28ddd2bdc726a0dfcb9cbb54739945b486cbe783448065d71db184  src/src/qt/bitcoingui.cpp
     fed877ec2c28db4e2b9335f49bc9448eb67f72a06989e440e986393a40f17807  src/src/qt/bitcoingui.h
-    6eee09adb49fb108223c61f84b447eb0bb6640386ded59d7662d7ff0af314144  src/src/qt/bitcoinstrings.cpp
+    ddd3dfe460d27652d00ca5f263c8f8307a5fa55966ea4fd3c153dcb89c4adde6  src/src/qt/bitcoinstrings.cpp
     604500fb7d16d1dd0f814f2801f82fac36b3e7b3b711e84a1354adbe512eef97  src/src/qt/bitcoinunits.cpp
     c76ceeab1803b0a977299aeb4c2a71e19ec925ae16890208021a96b27aa4381e  src/src/qt/bitcoinunits.h
-    e9db77fed6e4da4de9b4c474198608e1373bc5a8a015c6578a81c6e8fd4c0e5d  src/src/qt/clientmodel.cpp
+    cd8b77038030bde425037891c7b18a8edf9b8570d4089e408213ac34ebcdb360  src/src/qt/clientmodel.cpp
     8fdff502c648e3cd73f57c00e1e9c577897f1ba5459adaf7ddd0064e7f1b0afc  src/src/qt/clientmodel.h
+    e0877ec69894fca5f6f1b8a4bb6efbeddd596671b65e7bbd27a5304971d53e0d  src/src/qt/coincontroldialog.cpp
+    5ef417f7b81059c49f96b384be700c3d6c8526eaa92bb0879b92f8961e94bbf9  src/src/qt/coincontroldialog.h
+    d39e6992e0592b8c2e77c4fd17f4a228d2006a651934246a998c1a28b5893be3  src/src/qt/coincontroltreewidget.cpp
+    c5349efdf79333a70f3f99f99650c77c6f4b798e740ae12c2776aa6de8fd7e36  src/src/qt/coincontroltreewidget.h
     1fc811a41c768b43159cd1123802ca4c085f63e96cebc6140839c27cf996db6c  src/src/qt/csvmodelwriter.cpp
     d1ca48764ba10cf63f3eb6a2145cae89beb013d9d6347cf8662db25bb178767d  src/src/qt/csvmodelwriter.h
     69b57a5d9f5bb5281e5f373cf24f82c329e65ddeefb1b05f87018371aeb42f01  src/src/qt/editaddressdialog.cpp
@@ -360,18 +367,19 @@
     08e60d93d9b1707b760659b1e640e5119ab46681f712f7840267bf1789c84c67  src/src/qt/forms/aboutdialog.ui
     3f942c7cf0ee0f139a2330aa4eb59532bfaf62e437f8fe85bd7fc60636021f24  src/src/qt/forms/addressbookpage.ui
     257540cba3daaa3a1d7984782e70fc3768e24651537ca92a7cae6d01720fb3d5  src/src/qt/forms/askpassphrasedialog.ui
+    01e1b0d13394454307e38868cbe5d625413814370c4443b31f9aed73a8a819f6  src/src/qt/forms/coincontroldialog.ui
     cfa9e3c3a3447bb8b1ffe866250a9759e0d6242eb5c2474ac6919e3329f73d72  src/src/qt/forms/editaddressdialog.ui
-    366d82b53c8a31fa83367c9b31671e3764a56d7964952fd255e8c644b34dc0c2  src/src/qt/forms/optionsdialog.ui
+    86b2c5c4e17fa508c544be8e1ed6b032c16778a41f02cc79d3f43af0c45318b8  src/src/qt/forms/optionsdialog.ui
     e92b323eec4ecf6e577fd79d246bcc9aa85c7afcd6328eb6903e8b3446fe6c4e  src/src/qt/forms/overviewpage.ui
     4a3907b432a303f0a60111aa0b2d98a772e7fb4a74644e3d8e6337fd2be42c45  src/src/qt/forms/qrcodedialog.ui
     d34485bd026ea400290b71f236487c5fa35751100684dc942ffe804bc59d1dc3  src/src/qt/forms/rpcconsole.ui
-    3c0e5995d10c61ae37f9c5392e17af7b22358c749e9a89d9208ef49a2ebe5ef6  src/src/qt/forms/sendcoinsdialog.ui
+    e3f9f4c1c561f93e09438998c2ef6fbd730be699d6f615df35cde7d74c9a1f11  src/src/qt/forms/sendcoinsdialog.ui
     0caf67d9d006837358ed49a772976c754604c2148d82316710eed8e62e7f2bf8  src/src/qt/forms/sendcoinsentry.ui
     00388f389f142cc9df2b62602ca9903396cc75b0a7f4a4c6416683275a7c080d  src/src/qt/forms/signverifymessagedialog.ui
     780b3c74e56a2674bf6435cf1491fd170845ea04d154d9b5063495e2d9d675ff  src/src/qt/forms/transactiondescdialog.ui
     3badade08a51c4e29eac2d83e7ca50858f4607441d3653cad8b22615295a2938  src/src/qt/guiconstants.h
-    40ca69c5974b92e6d042fcd992c31ed19668f564e12ce95bb893b692dacc6b39  src/src/qt/guiutil.cpp
-    fa24b9268a2f4d9834c40d1a8228c8c734d1f207a3dc85d871945919842dff62  src/src/qt/guiutil.h
+    4caf095a0c8f02b354baf0ba5c9bc439362ecb633806dfba00204e07b3bf9b3e  src/src/qt/guiutil.cpp
+    df0fada8141f7bcd29d200040591e583b0f69da2c149264e0b003c87a043f51e  src/src/qt/guiutil.h
     aa207ebfa5879cc57164f6aa94d50735342d2e4c738de82b596d63d21cd3fc94  src/src/qt/locale/bitcoin_af_ZA.ts
     08b43688dfbaafcf446155ab7c2e8b33a19a463f5cc48f7698b9d6c849df79ca  src/src/qt/locale/bitcoin_ar.ts
     b822aed480730d485f65486d9cfba0466032e1de71e16284b7b82c2b5c33e33a  src/src/qt/locale/bitcoin_bg.ts
@@ -420,20 +428,22 @@
     f0ab9f3ce81d77630de33fb0deff91db8d2b4e6053415b641c224b04a0976d1f  src/src/qt/locale/bitcoin_zh_CN.ts
     fcb12ba86cf7438a2e2ba7b40997cda12d23aa27902773d870fd4ed1e49ec92b  src/src/qt/locale/bitcoin_zh_TW.ts
     a9c03fb72a831f906d6715340078c321e04ff4d9f04b234ea3dff0ee01c70209  src/src/qt/macdockiconhandler.h
-    ae76cf4da4f884d456eee4b47ebec6000624950f737ee6d0b750626f14f09468  src/src/qt/macdockiconhandler.mm
+    ec2df5770adf078247c5b6a63484e84259b95a0a2a6d8d8b31dc34be9e96f5f5  src/src/qt/macdockiconhandler.mm
+    80db39d7ec47a65c711db1d52b136cdda4aaf661a49c9e3d4cecb06d7329d0d2  src/src/qt/macnotificationhandler.h
+    1d5d3174ecb55018adc200268a45aa6df62799b66d88363e398d4e143c3bf806  src/src/qt/macnotificationhandler.mm
     5605fc3491bd94f1252ca89135c03e4f552b55ced040b1367d0e9752e16d04ad  src/src/qt/monitoreddatamapper.cpp
     77545b3b9893ad79af359021c1f36add61e0e77462927e709fc6ef1dedf9f4d7  src/src/qt/monitoreddatamapper.h
-    705362577da4999e0e542c19463821f470cca3be1c6487545fa415363fc036d7  src/src/qt/notificator.cpp
-    9e45c08750afbea1d0b57ed2910785eabe6d43861af5abb93fb45e4db489cf33  src/src/qt/notificator.h
-    d6e26298264015c813ee936bddffb9f241672eae0ad0f9b66389c25cef4b95bd  src/src/qt/optionsdialog.cpp
+    7221fde55df2091c5bc60eea88da86a344cb9514c6b47925e330e22ea227f106  src/src/qt/notificator.cpp
+    7c8f0b161e654de2952e024c65e6fcc900f004a14b722341166302a217b00216  src/src/qt/notificator.h
+    3be52318f08579fdda58c35e3a782ec9c5bdecfe1a3b96c6a1f2fe87e81b3d97  src/src/qt/optionsdialog.cpp
     458034004536044722980bb38f9a5b0dc4b0eac76f9e68f51ceb25fedefa5f64  src/src/qt/optionsdialog.h
-    5c7b0d41650a9320e6bbd5344a370c300ad4aac9cc57de75c1e45fb8bd46af26  src/src/qt/optionsmodel.cpp
-    e86de40664e10733f1e8f09fa3d7745e45fe587b072666c3aa71a249bd4d9eee  src/src/qt/optionsmodel.h
+    ea4171606856a502708338f9744f86573dcd45835259efb772c38840eaede970  src/src/qt/optionsmodel.cpp
+    f53508899a64cfb130d3bd66b05e33858c77ef965742f1838ed67838b7f6c94e  src/src/qt/optionsmodel.h
     b06272a8d8b92aacd4101cc042b693c4c24da77fb5f85ec9b09a5f097794ed14  src/src/qt/overviewpage.cpp
     da349d55b7c833a66dfd76d7560361ae0e69b50144607284d08ce38b0217ab33  src/src/qt/overviewpage.h
-    2197e18816f494e0d55c81101741083f18ffe0e1bcb3a08297d4983cabdb1d75  src/src/qt/paymentserver.cpp
+    43e5fc6c768263a162fc116245bcd569d2e03e90aa860f31e5e701371b49adba  src/src/qt/paymentserver.cpp
     e276864a48e4d19b4133e336c548e9065e52fbe6cb376b0f923e986fb9a36983  src/src/qt/paymentserver.h
-    9f95f7b5a210dd6ad96cfc4ec82fd3a421bae53c464acbc40215624424cbb174  src/src/qt/qrcodedialog.cpp
+    15f205133b919be0642064731eafb246adf794f7e6783ca80217c0e344592b9f  src/src/qt/qrcodedialog.cpp
     c1e34092481a12265f37aca7838ce4739e8bf81db69810b8729baaaaa2c3256e  src/src/qt/qrcodedialog.h
     102283e03e0eaeaf7bfba74c525f36a20869e8d5ccdb98d15b1cbb199790e557  src/src/qt/qvalidatedlineedit.cpp
     2fc139b4b224ff5765e99df18e659cde0cdf05c01e0461ca65f9b8af6413a4f5  src/src/qt/qvalidatedlineedit.h
@@ -497,15 +507,15 @@
     6e9dce0cd4c2c9bee30d0e58c1781c137384fc51de641139fa3cb3080cc4d59b  src/src/qt/res/src/clock_green.svg
     7427859624ec88e1eb882e0651e93cae349101bb0d05b6ef8c9a0e439a0ad7bd  src/src/qt/res/src/inout.svg
     e869e989208eb9e1ba07efe2564961e0bcd78bf6b056973cccba5e33aa57bfdf  src/src/qt/res/src/questionmark.svg
-    986fb11f659c8c259d4298a75134c861cd9779e940dfd3f7899b45b8665eca3c  src/src/qt/rpcconsole.cpp
+    c288ec46d7cf40d774022ed1b36ce0802c2c114a2247ec575cfbb396c9c3a09e  src/src/qt/rpcconsole.cpp
     c09746a889d21d1c38d1707564643a50f1184fe1e84a1689887bbfc1fab53669  src/src/qt/rpcconsole.h
-    910f17d896b1dfd88c81f5d45b7a9a6e41d2e83141447c1e18f0782bc587eb65  src/src/qt/sendcoinsdialog.cpp
-    2cb78c682d8ada22cdcc0b1f8cd5587e911d12e66d6379c2b74f33fa96feff18  src/src/qt/sendcoinsdialog.h
-    aafd52dfc0bff3e1b8c6b617d6fb29a97ee76179a58dcb2c4dab7d1dc082e1d2  src/src/qt/sendcoinsentry.cpp
-    3d69b3fb9db0404dbaba8c59fb66afa70cb88378d2ba6e010e032b6f18974097  src/src/qt/sendcoinsentry.h
-    0079effb24d8fa4f2613a2b6cfc744cb35004e6e2fc9dd009ff1d30439c84a1d  src/src/qt/signverifymessagedialog.cpp
+    362c4eb0f909f325eb58ed75aec088aa8e219d58eef63324a2888c056a0d9b4e  src/src/qt/sendcoinsdialog.cpp
+    74d5977a85f3521e0db1920c576b30ddbe09cf409a46ec19bc1365f69adc5388  src/src/qt/sendcoinsdialog.h
+    c58b316642bfa5bedab7eb7cd83d71005961cf26e8b252af90c006e4dcd17549  src/src/qt/sendcoinsentry.cpp
+    0c13aaa1325225269e855895b178e4c72a83cf81a80abb4daa177e41cfde0763  src/src/qt/sendcoinsentry.h
+    76ea850474a1ea178accfd602674e9f8904d98c6a2a11255383d1bb7486770b9  src/src/qt/signverifymessagedialog.cpp
     a2b1861725db23ab127e81a63d229f8d61d64c997021394a96b874ebfbf85f0c  src/src/qt/signverifymessagedialog.h
-    6d68d2eefac8148b3bc81ba4bd4f56ea292ffe6fcf3d8ae162dd4e593d1da0ff  src/src/qt/splashscreen.cpp
+    b0bcc8d631266924061ebd5bee7f53edc9e3aaffde1130848132105d91d712b6  src/src/qt/splashscreen.cpp
     0b5e83140b9992dab8302a2632ae62938090f9db3fd5860df84c40e53e7b0361  src/src/qt/splashscreen.h
     e7e6a72ca9d408068e11221105834ed63bb359046afef468fd1786562e1e2964  src/src/qt/test/test_main.cpp
     a0b8ff0f0efe8076ba797bfc14a29631a68d332bdec0b0b1e2351b78ed563704  src/src/qt/test/uritests.cpp
@@ -520,24 +530,24 @@
     74b859c11298ef9f427d397039c60cba8d3e6dd5d6285c12cfcbcc60df5c6f2c  src/src/qt/transactionrecord.h
     70058e6427c4d430595a39580a49836cf75aaf99a4fabd3250278484e84578c1  src/src/qt/transactiontablemodel.cpp
     9d5f0804393e79c094eacbc653b5d3c3df1eb32a16591892ad09d74acb0e8cf5  src/src/qt/transactiontablemodel.h
-    cdcac377815350ff500b7e246e836c442832358d3e0145255cc6f3fb70925797  src/src/qt/transactionview.cpp
+    2da9c40973184b9cb09f563ffae17954b186b500a9d56b6396ff40a126ca4c0f  src/src/qt/transactionview.cpp
     5c78ea6cbca86700fa038631ebc043ad0c15d41f6ccbf4bb5ec9814509b5a5d1  src/src/qt/transactionview.h
-    0f8da841ad9210a785ad1127b6777821657adcc695faf46541f7f4e9f5dd34d2  src/src/qt/walletframe.cpp
-    66973d2868a4ec4811c3bc4420ce80ba75769703091a5a8f706fdb55b2ba86c0  src/src/qt/walletframe.h
-    bc99c6608b230cbf2021826b30a3c590571e2ad384ffd41549570a1b2f68c7e9  src/src/qt/walletmodel.cpp
-    4aa399f54d0c6d026193021dceba7cc70705c079054cb9106a2230a793f8ab26  src/src/qt/walletmodel.h
+    d86304c150296304582c05105b7a1466ece3a177c4c19b89831fa0c945cc730d  src/src/qt/walletframe.cpp
+    f31986740634ae4311a45d19464dac195dfbb06cf1bce7070fc9bb172fdf7a12  src/src/qt/walletframe.h
+    73ec33a0707292748ddafff69862bc5c1e1e6cd10d15a91d14bbf29e0b2fa757  src/src/qt/walletmodel.cpp
+    d1354f14ba898c3a28e92a6a4c95522f235998ad57e27ce3965199c10dfde59e  src/src/qt/walletmodel.h
     63746919d35e69f2e8af2804569abb97f141619c7a8358c62a7e95aa803e0f61  src/src/qt/walletstack.cpp
-    6db6bc666edc2630f4782a9a6fcaac1211dbe333d3ead3d6c0ff52b96a5b1d57  src/src/qt/walletstack.h
-    7f1774a729a6a9439f026758b5bce5b2ec658b7fd39a87e2ed4a4eabc4ea6267  src/src/qt/walletview.cpp
+    4939fd411b259726a258b865f41ab8106be9642f6165455390aae1d333b605d3  src/src/qt/walletstack.h
+    44fce4c0ece7064c0ab942b37dc305b46384255e6b6eb6bd0c16d7c88bdb4b14  src/src/qt/walletview.cpp
     96c740ed1b068f326916d19f4e088b58edb8e8d9550774eb1f1d3bb713f2a952  src/src/qt/walletview.h
-    f47e4fb10bdbb69c59168976f18b3db88453fafd94221219e1dc3e243fc9f917  src/src/rpcblockchain.cpp
-    ad761c26ee38571ff87b2a7dd6c5575c7213aeaffec9e557bb023887bea936d4  src/src/rpcdump.cpp
-    fba133b9d4a3939766f6e60ad381e7cead4144303f1b943b776e3d8c50463cb6  src/src/rpcmining.cpp
-    c0f924796b3770813b697957b63b333acb82314bd25eec409dd54e494ff73706  src/src/rpcnet.cpp
-    bacb417170001132bdcc3f2397a7d6fb7252cf9d591944991f659799d6c0d2ac  src/src/rpcrawtransaction.cpp
-    5883db931123e4c260464bc73e2ff9e1f56c6b8eb3b0d52dcd0c2075e61fccdf  src/src/rpcwallet.cpp
-    d6b7970d19b1a9852b60e15218b293685b70624363defa91ed90cfe6ffb9f757  src/src/script.cpp
-    5bc412a0b0e7cc71566a86c42ded33f47f0913532d4eb66e55ec2bd3f1d68981  src/src/script.h
+    73beeeefb41db5ee8dffdc5c422a8637c8d80a0cba91b7473585aaca056077df  src/src/rpcblockchain.cpp
+    eb79eaa100bded2a3d3657c68bcac1cef46a32ea8acda4fe23841c50fd8de680  src/src/rpcdump.cpp
+    976a1872c0bad75861c9a6a5249549bd5d6aeb251d34816d8629cada44ebce06  src/src/rpcmining.cpp
+    1ce6ab9810e872de097eee0fd492f298febee295572a00bb2939ffe69dd8fdb2  src/src/rpcnet.cpp
+    dfd4f73dd7756100a505a61800435630bf4ca47b0add2a9cbdf42bef66e862b3  src/src/rpcrawtransaction.cpp
+    f70b58756c42d5c3163c3669b0aa3b57dfb7866a4d20038cc390812e9d2edc90  src/src/rpcwallet.cpp
+    39a106ee9f636b2efed31b3ce7e3c820467729a53d6f31632f1daf986cee227d  src/src/script.cpp
+    fbd14907acfc1dbd1d7db7c26f43e4eb2e870e4abe4d5d26609d1e520637c961  src/src/script.h
     20cf24e8cbf887639fcb97d1b563eefd81fc2fa458a978a9bcc3a167487b3347  src/src/serialize.h
     15b5bc822247a83b7ba6553d9b25bcf80ca9a3f510d07d87dbbb9e786b7ab137  src/src/sync.cpp
     57044b2656f37436e9ab35edc2dd6928f226d2fea44ea38d918c59f4acccab68  src/src/sync.h
@@ -548,10 +558,10 @@
     41ecbeea7933699a88158aaa6479e8cda25cda2af298774d81a517e24e0099f6  src/src/test/alert_tests.cpp
     738e8f80ab3efef4f9bf0437b379c2cdd8c66b830fcde97b1b31f3f00d2701d1  src/src/test/allocator_tests.cpp
     26792bedf1857e22ec7ccbdc347b8cab9d802f76dd7c50241df57539e54e2b51  src/src/test/base32_tests.cpp
-    8ebae8a12ee288e819c37cd48b06c4294a88920b984d54427fe8aee190e30013  src/src/test/base58_tests.cpp
+    587c8ee3d115a8571094666cb22a1b97ff0dcd1e60251430412b38ec33b34b92  src/src/test/base58_tests.cpp
     8beda68ef3117921230b33ca4fb64dd85f3cf920fb759955371b90ed26bac992  src/src/test/base64_tests.cpp
     9ce3852b891d8c2ceb45bc4eccb7cde1599feaaeeccfcb8b294358965cc367e5  src/src/test/bignum_tests.cpp
-    c6064f822001c39c765075583740e44d5310ffe05da1fd9b226ff5f6aed96bf4  src/src/test/bloom_tests.cpp
+    67dd5aa4a7b052841307897aeea7524d34ab8c2d9a0bf14174a792f4d3a5b2fd  src/src/test/bloom_tests.cpp
     73a928949137c5ae20cc4dfa58f6e8fc87cc6c2880dbaaada420b4cc08936f1b  src/src/test/canonical_tests.cpp
     1986bbea3b9c7c5cfcb3841cfbdd1688c5ed8f8163953b8d4312997953d34dcf  src/src/test/checkblock_tests.cpp
     7beea9ab49799390c3a8919ce091c737978b5b9838af509f54095fa69358c3c2  src/src/test/compress_tests.cpp
@@ -566,43 +576,43 @@
     cc785e71518bbe05e694fd934509cdc565735e61af9aba50fd182829d1d15b59  src/src/test/data/tx_invalid.json
     d02f07cd3641371797024fb1265678aa3c824b6e64a5ecc8b9aaa9d4b226ca2b  src/src/test/data/tx_valid.json
     c6713baf7ec6b4b314d87351f1338f15bd3da11c0b1464774844c46f58e755a6  src/src/test/getarg_tests.cpp
-    dfa890f90dfe6fc6a8828013b3c03ab5cb98b2e988e5eb841b2e2a1ff517a7ca  src/src/test/key_tests.cpp
-    c4ebc6e27209e1e5db19f70bc830705e2bcdc00f937829ba59d308bf0ced5fae  src/src/test/miner_tests.cpp
+    f1ee3e53e5c72fa3ec820d678ef23a9a827087385bbfc76c3714da680eabb608  src/src/test/key_tests.cpp
+    39d8a4085806386208752f154599cfbd1d4d5b1244e2594b557eef72f6961017  src/src/test/miner_tests.cpp
     b1a0b9c83772589b485b4a8d080bc6b006535453a5afb5f84507a1d3571a2dcd  src/src/test/mruset_tests.cpp
-    2f186559fdeb3e2e0425f6ff2949d580bdf32953ec67bf6d9900115243138b84  src/src/test/multisig_tests.cpp
+    735146699779112aa775e197a5dfb50ef68e81331cfcc80f4b4f640ee2a7f4b5  src/src/test/multisig_tests.cpp
     5f241fe0cd8bc449a352ab96cdf37e05a08209320bd51d70a57f113611eeacf2  src/src/test/netbase_tests.cpp
     1879386ee6a3bced00ceaed5000e5bae44bebcf80db0396f8730bd470a96e1b6  src/src/test/pmt_tests.cpp
-    afdad58e1dca599cec530702bb25cdc6a62885d2c7a79935c6993780a58a53df  src/src/test/rpc_tests.cpp
-    1423b66bde3ca1cda93cc370ce1fc29930f7b4871ea9f9f74043f96bfb691f77  src/src/test/script_P2SH_tests.cpp
-    a846f8aad311d8556b476b5c05585e6728176eb636baffc7034b81eae6b50e74  src/src/test/script_tests.cpp
+    01a75cab7542316475cf469b890f91c8d434f0f3d394a227b18e82af5481c424  src/src/test/rpc_tests.cpp
+    bb4d38c59b04c18b31b8b4d3b2c7d3f55f6de0cb8f065f4e2a058b9237025f55  src/src/test/script_P2SH_tests.cpp
+    bad76267340b83570c42bc85c7884bea6465c127d6193be0f25e063769a2b063  src/src/test/script_tests.cpp
     cef7a76d558a7ea074c22915ea3af8a3fd2681da2fcee0e9b6b3426fe757d1ea  src/src/test/serialize_tests.cpp
-    c11402be4280cf6f6e13625f13d4189a7113a4e4664d99f7c3905f793c8cf99c  src/src/test/sigopcount_tests.cpp
+    b073493fa3b227bc1764e0adbb55eba18faa7533a1f51a62c63e420fcb212065  src/src/test/sigopcount_tests.cpp
     50651e043e172f389cc1b0743075db17089f6ac356ae807fb61f11e1b20b9dab  src/src/test/test_bitcoin.cpp
     1e5235343c2faa70023292d61e953c5178fad3663d334ad33cfcccbe2f202eff  src/src/test/transaction_tests.cpp
     65df1884fb895ffd948651afacc776eff5b68c1589a164a1590e4c6bd6188a45  src/src/test/uint160_tests.cpp
     024b7f8c15445e317983b0533669854f8aa051c6766e6287b27e34d32ce0a2e5  src/src/test/uint256_tests.cpp
     dbc059c9d02f3385aa40d2fe9b0122867481dd57a85af876d491340c423140e3  src/src/test/util_tests.cpp
-    ee9de460a4983ac0d883fa9305d58aaff96dd8a9868cc67aaf2a6c0ed9a87528  src/src/test/wallet_tests.cpp
+    da318f49a75820c5895bf47d45d4e268110fa1c6123f9270126347506459577c  src/src/test/wallet_tests.cpp
     1ed09fae0c6c28ef4cf2d183274c5b9179120c8c627499af0fedb869308cd719  src/src/threadsafety.h
     d2e6875dd43ad9ff0e0306b07a574772990f5153fe7d15923dd5e8d8de8a5824  src/src/txdb.cpp
     51e373c114dfc67655bc1ad45dc6c54cce636ab48dcc15fad9eb7de1317a9f0f  src/src/txdb.h
     8a6304951b68a9473e5dabf634d1ac41c6afd3826e1ec954f12d87a9ae779618  src/src/ui_interface.h
     ff78c940d78f954649607d960719ada9992892b1e21b48fd0dd01b291bff730b  src/src/uint256.h
-    f8c494292bb893fbebafa9a4a7d843d7942983a2f68f155e586676129445f418  src/src/util.cpp
-    2b1c2c18df55d951d5941c20eac238e571a87f3a431d67eb65d5adb1b98fc13c  src/src/util.h
-    e4b2b0e2ff1ed1befd21794f9c765208230f2d3feadd6b11d82cdeaecb47610a  src/src/version.cpp
-    bc045f0eea2bb8d18f189986cd0682ca2e74c33a556639c5c2acb58ad3c25248  src/src/version.h
-    eb37b1760109a01afca4f46f47998ee3d1479e7cdf1222bf9a20da83e98501b9  src/src/wallet.cpp
-    7aa9d028ee739d6b946bf6fb4398f5141bca69fd669c1f30e42e49fcbf944f95  src/src/wallet.h
-    a91b3592f4caf0a190a8d14d8d32f023185ae989840b11c792cba3c644cb4ce6  src/src/walletdb.cpp
-    a8674d072e1d71fb194b23554d934f834e64dd1bc65c9989da1c47c55dd62c18  src/src/walletdb.h
+    f3bd001618b8a0e42886dab02c612f951d4f687ebfd32c8041db432e9a8974b5  src/src/util.cpp
+    78f6e2ceb66abb7843ed56fedc52ca20dfd1dc3f4c5bb545196e4983639e55c5  src/src/util.h
+    3db65d7cf3c11c0490b9abccd42260be8919d5d73698a2fbc9f72b152c7e086d  src/src/version.cpp
+    f41153ab5ae4f2410d4d4a6c1fa752bfbc00da798e8c3196cfee66666b291638  src/src/version.h
+    9c0ceec843aba30a56fd7b300354ca527d896097c7c8abbab81b4f37045e6e35  src/src/wallet.cpp
+    b8051b5949ffd7076fee039ca2d1b86ba972e95bc7f9b455c322e65fc0d490e5  src/src/wallet.h
+    1c169ed50abec8a53c21913d8d280a396569c234bfe6be95f7a5b2fb863ab06b  src/src/walletdb.cpp
+    6a1c2733cd99678d30b87c903769f11ca582d3f8abee407233dc68db26bcc56d  src/src/walletdb.h
 
 - in_manifest: |-
     00816329f913c3b775714542338b97494375ba10971bcca61432d60305f5366b  bitcoinomg-desc.yml
     86619ee56c1188fabb6aaae4c631c3cebbef9de4609793f46182146d183eebfd  qt-win32-4.8.3-gitian-r1.zip
     3d0bcaca7ded7973df2c50ee247a556a5c446cf7b040ebcaf836f161adac2d52  boost-win32-1.50.0-gitian2.zip
     b8385fc61727f2936a75dcea86694aad6dbdd5929415a9199151a340574b9367  bitcoin-deps-0.0.5.zip
-    git:ef14a26b12ad63cbe109e24043b0b1ce5c07447a bitcoinomg
+    git:5b474dacd8ae0d32f8c76dead7b7e9905d868ec3 bitcoinomg
 - base_manifests: !omap 
     - lucid-i386: |
         44f14badacd571efe6b18a4d1adb2098593638d614e837a6ff6a7f9b3ad58e9d  adduser_3.112ubuntu1_all.deb
@@ -854,7 +864,7 @@
         26ec2673d76d3f325891e9634eba7c81b6ca1fa02dcca5144dcc7b2ebae2e08a  xz-utils_4.999.9beta+20091116-1_i386.deb
         76448677f00312141cbacf170af5353967f92a8a5ab154bd6e30dfa92931fafc  zlib1g_1%3a1.2.3.3.dfsg-15ubuntu1_i386.deb
 
-- release: 0.8.5-win32
+- release: 0.8.5-OMG1-win32
 - name: bitcoinomg
 - type: build
 - optionals: 
