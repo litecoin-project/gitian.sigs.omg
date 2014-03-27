@@ -34,7 +34,7 @@ Random members of the public are encouraged to participate in this process in or
 	./bin/gbuild ../bitcoinomg/contrib/gitian-descriptors/qt-win32.yml
 	mv build/out/qt-win32-4.8.3-gitian-r1.zip inputs/
 	./bin/gbuild ../bitcoinomg/contrib/gitian-descriptors/deps-win32.yml
-	mv build/out/bitcoinomg-deps-0.0.5.zip inputs/
+	mv build/out/bitcoin-deps-0.0.5.zip inputs/
 
  Build bitcoind and bitcoin-qt on Linux32, Linux64, and Win32:
   
